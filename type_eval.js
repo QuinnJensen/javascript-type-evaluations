@@ -1,8 +1,8 @@
 const sprintf = require("sprintf-js").sprintf;
 
-const fmt = "%20s %14s %14s %14s %14s %14s    %s";
+const fmt = "%20s %10s %10s %10s %8s %10s    %s";
 console.log(sprintf(fmt, "expr or value", "eval", "typeof()", "Number()", "isNaN()", "Boolean()", "in an object"));
-console.log("--------------------------------------------------------------------------------------------------------------------");
+console.log("-------------------------------------------------------------------------------------------------");
 
 check("00000000", 00000000);
 check('"00000000"', "00000000");
